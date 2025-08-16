@@ -80,7 +80,7 @@ public class Menu_Project extends JFrame implements ActionListener
         jmn.add(menu4);
         setJMenuBar(jmn);
         
-        ImageIcon ii=new ImageIcon("College_Photo1.jpeg");
+        ImageIcon ii=new ImageIcon("College_Photo1.jpg");
        JLabel lbimage=new JLabel(ii);
        add(lbimage); 
        lbimage.setBounds(50,50,1300,800);
@@ -126,4 +126,5 @@ public class Menu_Project extends JFrame implements ActionListener
     public static void main(String args[]){
          Menu_Project obj = new Menu_Project();
     }
+
 }
